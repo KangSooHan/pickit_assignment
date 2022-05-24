@@ -1,0 +1,4 @@
+<launch>
+    <node name="rviz_visualizer" pkg="rviz" type="rviz" required="true" args="-d $(find pickit_qt)/rviz/default.rviz"/>
+    <node name="pickit_qt" pkg="pickit_qt" type="run.py" output="screen" />
+</launch>
